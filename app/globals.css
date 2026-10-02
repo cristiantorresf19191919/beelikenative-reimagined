@@ -15,3 +15,4 @@
 .teacher-photo{inset:auto;top:0;left:10px;width:calc(100% - 55px);max-width:335px;height:auto;aspect-ratio:340/405;background-size:724.12% auto;background-position:41.23% 57.57%}.teacher-photo-small{height:auto;aspect-ratio:340/395}
 @media(max-width:700px){.teacher-photo-composition{height:auto;aspect-ratio:1}.teacher-photo{left:10px;width:calc(100% - 50px)}.teacher-photo-small{width:125px}}
 .player-steps{position:static;background:transparent;padding:0;box-shadow:none;flex-direction:row;width:auto}
+.teacher-photo-small{background-size:800% auto;background-position:21.81% 57%}
