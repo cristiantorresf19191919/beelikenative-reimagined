@@ -38,3 +38,13 @@ Private-lesson and upcoming-course enquiries link to the public address from the
 Original implementation and lesson material are offered under the MIT licence. BeeLikeNative's name and brand belong to their respective owner; the licence does not grant trademark rights. The owner may fork, adapt, host and use this implementation without paying for the code. Hosting and third-party services retain their own terms.
 
 Accessibility includes semantic structure, visible focus, keyboard-close and focus handling for lessons, reduced-motion support, and responsive layouts. Fonts load from Google Fonts, with local fallbacks.
+
+## Companion and themes
+
+Bibi is an original SVG bee mascot with a phrasebook. Her eyes follow the pointer, clicks cycle encouraging expressions, and a shared pause button suspends all pet movement. Off-screen and hidden-tab movement is suspended. Light/dark theme and pet pause preferences are saved locally. Reduced motion is respected.
+
+The lesson player now includes vocabulary flip cards, per-line listening, a sentence builder, a sequential quiz and a guided speaking/writing exercise. Its completion celebration reports the activities actually explored; learners may choose their own path.
+
+## Creator photos
+
+`public/author-source.png` is the screenshot supplied by the user. CSS frames the existing portrait and video stills without generating or altering the creator’s likeness. These third-party photos and the BeeLikeNative brand are excluded from the MIT licence; their rights remain with their respective owners. Replace the screenshot with original, authorised high-resolution portraits when available.
