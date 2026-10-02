@@ -48,3 +48,11 @@ The lesson player now includes vocabulary flip cards, per-line listening, a sent
 ## Creator photos
 
 `public/author-source.png` is the screenshot supplied by the user. CSS frames the existing portrait and video stills without generating or altering the creator’s likeness. These third-party photos and the BeeLikeNative brand are excluded from the MIT licence; their rights remain with their respective owners. Replace the screenshot with original, authorised high-resolution portraits when available.
+
+## Languages and level check
+
+The interface supports English, Arabic (RTL), French, German, Spanish, Hindi, Portuguese, Italian, Catalan and Russian. The language choice is saved on the device. English practice material stays in English. Edit `app/i18n/catalog.tsv` (key followed by these ten languages) and keep `messages.json` in sync.
+
+`app/assessment-data.ts` contains twenty original reading, grammar and vocabulary questions across A1–C1. The indicative result is the highest consecutive band with at least 3/4 correct. It is an unvalidated practice check, not a CEFR certificate or a measurement of speaking, listening or writing. The result includes skill scores, answer explanations, a seven-day plan, and an appropriate starter, upcoming-course or private-lesson enquiry. Progress is stored only on the device. CEFR context: https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions
+
+Run `node scripts/verify.cjs` to check scoring boundaries, course paths and translation completeness.
